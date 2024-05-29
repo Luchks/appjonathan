@@ -20,7 +20,7 @@ class addnote extends StatelessWidget {
 
 
 
-  CollectionReference ref = FirebaseFirestore.instance.collection('report');
+  CollectionReference ref = FirebaseFirestore.instance.collection('reporte');
 
 
 
@@ -42,13 +42,13 @@ class addnote extends StatelessWidget {
 
               ref.add({
 
-                'name': name.text,
+                'Nombre': name.text,
 
-                'Maths': subject1.text,
+                'Matematica': subject1.text,
 
-                'Science': subject2.text,
+                'Ciencia': subject2.text,
 
-                'History': subject3.text
+                'Historia': subject3.text
 
               }).whenComplete(() {
 
@@ -62,7 +62,7 @@ class addnote extends StatelessWidget {
 
             child: Text(
 
-              "save",
+              "Grabar",
 
               style: TextStyle(
 
@@ -88,7 +88,7 @@ class addnote extends StatelessWidget {
 
             child: Text(
 
-              "Back",
+              "Regresar",
 
               style: TextStyle(
 
@@ -122,7 +122,7 @@ class addnote extends StatelessWidget {
 
                 decoration: InputDecoration(
 
-                  hintText: 'name',
+                  hintText: 'Nombre',
 
                 ),
 
@@ -150,7 +150,7 @@ class addnote extends StatelessWidget {
 
                 decoration: InputDecoration(
 
-                  hintText: 'Maths',
+                  hintText: 'Matematica',
 
                 ),
 
@@ -178,7 +178,7 @@ class addnote extends StatelessWidget {
 
                 decoration: InputDecoration(
 
-                  hintText: 'Science',
+                  hintText: 'Ciencia',
 
                 ),
 
@@ -206,7 +206,7 @@ class addnote extends StatelessWidget {
 
                 decoration: InputDecoration(
 
-                  hintText: 'History',
+                  hintText: 'Historia',
 
                 ),
 

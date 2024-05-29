@@ -46,13 +46,13 @@ class _editnoteState extends State<editnote> {
 
   void initState() {
 
-    name = TextEditingController(text: widget.docid.get('name'));
+    name = TextEditingController(text: widget.docid.get('Nombre'));
 
-    subject1 = TextEditingController(text: widget.docid.get('Maths'));
+    subject1 = TextEditingController(text: widget.docid.get('Matematica'));
 
-    subject2 = TextEditingController(text: widget.docid.get('Science'));
+    subject2 = TextEditingController(text: widget.docid.get('Ciencia'));
 
-    subject3 = TextEditingController(text: widget.docid.get('History'));
+    subject3 = TextEditingController(text: widget.docid.get('Historia'));
 
 
 
@@ -86,7 +86,7 @@ class _editnoteState extends State<editnote> {
 
             child: Text(
 
-              "Back",
+              "Regresar",
 
               style: TextStyle(
 
@@ -106,13 +106,13 @@ class _editnoteState extends State<editnote> {
 
               widget.docid.reference.update({
 
-                'name': name.text,
+                'Nombre': name.text,
 
-                'Maths': subject1.text,
+                'Matematica': subject1.text,
 
-                'Science': subject2.text,
+                'Ciencia': subject2.text,
 
-                'History': subject3.text
+                'Historia': subject3.text
 
               }).whenComplete(() {
 
@@ -126,7 +126,7 @@ class _editnoteState extends State<editnote> {
 
             child: Text(
 
-              "save",
+              "Grabar",
 
               style: TextStyle(
 
@@ -156,7 +156,7 @@ class _editnoteState extends State<editnote> {
 
             child: Text(
 
-              "delete",
+              "Eliminar",
 
               style: TextStyle(
 
@@ -322,7 +322,7 @@ class _editnoteState extends State<editnote> {
 
                 child: Text(
 
-                  "Make Report",
+                  "Generar Reporte",
 
                   style: TextStyle(
 

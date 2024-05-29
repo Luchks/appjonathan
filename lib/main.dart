@@ -42,7 +42,7 @@ class _MyAppState extends State<MyApp> {
 
     return MaterialApp(
 
-      title: "Student report",
+      title: "Reporte Jonathan",
 
       debugShowCheckedModeBanner: false,
 
@@ -71,12 +71,11 @@ class Home extends StatefulWidget {
 }
 
 
-
 class _HomeState extends State<Home> {
 
   final Stream<QuerySnapshot> _usersStream =
 
-      FirebaseFirestore.instance.collection('report').snapshots();
+      FirebaseFirestore.instance.collection('reporte').snapshots();
 
   @override
 
@@ -108,7 +107,7 @@ class _HomeState extends State<Home> {
 
         backgroundColor: Color.fromARGB(255, 0, 11, 133),
 
-        title: Text('Students'),
+        title: Text('Estudiantes'),
 
       ),
 
@@ -206,7 +205,7 @@ class _HomeState extends State<Home> {
 
                           title: Text(
 
-                            snapshot.data!.docChanges[index].doc['name'],
+                            snapshot.data!.docChanges[index].doc['Nombre'],
 
                             style: TextStyle(
 

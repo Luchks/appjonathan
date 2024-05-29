@@ -54,13 +54,13 @@ class _reporttState extends State<reportt> {
 
     setState(() {
 
-      name = widget.docid.get('name');
+      name = widget.docid.get('Nombre');
 
-      subject1 = widget.docid.get('Maths');
+      subject1 = widget.docid.get('Matematica');
 
-      subject2 = widget.docid.get('Science');
+      subject2 = widget.docid.get('Ciencia');
 
-      subject3 = widget.docid.get('History');
+      subject3 = widget.docid.get('Historia');
 
 
 
@@ -189,7 +189,7 @@ class _reporttState extends State<reportt> {
 
                 child: pw.Text(
 
-                  'Final Report card',
+                  'Libreta de Calificaciones',
 
                   style: pw.TextStyle(
 
@@ -217,7 +217,7 @@ class _reporttState extends State<reportt> {
 
                   pw.Text(
 
-                    'name : ',
+                    'Nombre : ',
 
                     style: pw.TextStyle(
 
@@ -251,7 +251,7 @@ class _reporttState extends State<reportt> {
 
                   pw.Text(
 
-                    'Maths : ',
+                    'Matematica: ',
 
                     style: pw.TextStyle(
 
@@ -285,7 +285,7 @@ class _reporttState extends State<reportt> {
 
                   pw.Text(
 
-                    'Science : ',
+                    'Ciencia: ',
 
                     style: pw.TextStyle(
 
@@ -319,7 +319,7 @@ class _reporttState extends State<reportt> {
 
                   pw.Text(
 
-                    'History : ',
+                    'Historia: ',
 
                     style: pw.TextStyle(
 
