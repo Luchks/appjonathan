@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "426679750742",
+    "firebase_url": "https://flutter-test-f3055-default-rtdb.firebaseio.com",
+    "project_id": "flutter-test-f3055",
+    "storage_bucket": "flutter-test-f3055.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426679750742:android:f9535c94d5a0170183ebf7",
+        "android_client_info": {
+          "package_name": "com.luchks.appjonathan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU2veJR7t8shXkiGKZr1ntYiGhVN6Jg5w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426679750742:android:34c875595089a03683ebf7",
+        "android_client_info": {
+          "package_name": "com.luchks.yapecausa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU2veJR7t8shXkiGKZr1ntYiGhVN6Jg5w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
